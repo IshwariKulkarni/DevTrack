@@ -4,5 +4,17 @@
     "name": "Jane Doe",
     "email": "jane@example.com",
     "team": "backend"
+  },
+  {
+    "id": 2,
+    "name": "Neha Kakkar",
+    "email": "neha@example.com",
+    "team": "frontend"
+  },
+  {
+    "id": 3,
+    "name": "Neha pethe",
+    "email": "neha@example.com",
+    "team": "frontend"
   }
 ]
