@@ -42,13 +42,13 @@ Notes: Endpoints are based on file-backed storage in `reporters.json` and `issue
 
 ## Example Postman screenshots
 
-Success ([GET /api/reporters/](http://127.0.0.1:8000/api/reporters)):
+Success (http://127.0.0.1:8000/api/reporters):
 
-![POST reporter Success](docs\screenshots\Create_Reporter_Success.png)
+![POST reporter Success](docs/screenshots/Create_Reporter_Success.png)
 
-Failure ([GET /api/reporters/?id=999](http://127.0.0.1:8000/api/reporters)):
+Failure (http://127.0.0.1:8000/api/reporters)
 
-![POST reporter Failure](docs\screenshots\Create_Reporter_Failure.png)
+![POST reporter Failure](docs/screenshots/Create_Reporter_Failure.png)
 
 Note: Other screenshots are present in `docs/screenshots` folder
 
