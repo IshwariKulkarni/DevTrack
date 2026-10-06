@@ -39,7 +39,7 @@ class Issue(BaseEntity):
         self.status = status
         self.priority = priority
         self.reporter_id = reporter_id
-        self.created_at = created_at or datetime.now()
+        self.created_at = str(created_at) if created_at else str(datetime.now())
 
     def validate(self):
         if not self.title:
